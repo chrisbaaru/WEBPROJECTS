@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtubelogo</title>
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f5f5f5;
+        }
+        .tg{
+            background-color: #E72502;
+            width: 220px;
+            height: 140px;
+            border-radius: 40px;
+            position: relative;
+
+        }
+        .tg::after{content: '';
+        border-top: 40px solid transparent;
+            border-right: 40px solid transparent;
+            border-bottom: 40px solid transparent;
+            border-left: 70px solid #fff;
+            position:absolute;
+            left: 80px;
+            top:30px;
+    }
+        
+    </style>
+</head>
+<body>
+    <div class="tg">
+    </div>
+</body>
+</html>

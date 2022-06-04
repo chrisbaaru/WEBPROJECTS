@@ -1,0 +1,15 @@
+	.frfr{border: 10px solid blue;
+		width:130px;
+		height: 95px;
+		padding: 0.5px;
+		margin: 2px;
+		float: right;
+	}
+	.xb{
+		border:10px solid red;
+		margin: 2px;
+		width: 30px;
+		height: 30px;
+		padding: 0.5px;
+		float: right;
+	}
