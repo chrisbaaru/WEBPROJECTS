@@ -109,6 +109,16 @@ hr{
     text-decoration: none;
 }
  </style>
+ <script>
+   var a=document.getElementsByClassName("btn2").innerHTML=window.alert("You want to create a new account!");
+    if (a==true)
+    {
+        alert("Fill in the following form");
+    }
+    else{
+        alert("fuck off!");
+    }
+ </script>
 </head>
 <body>
     <main>
@@ -125,7 +135,7 @@ hr{
                 <button class="btn1" type="button">Login</button><br>
                 <a class="pass" href="#">Forgotten Password</a><br>
                 <hr>
-                <button class="btn2" type="button">Create New Account</button> 
+                <button class="btn2" type="button" onclick='document.getElementsByClassName("btn2").innerHTML=window.alert("You want to create a new account!")'>Create New Account</button> 
            </div></div>
         </div>
         <p class="additional"><a href="#">Create a page</a> for a celebrity band or business</p> 
