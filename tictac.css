@@ -1,0 +1,23 @@
+    ul{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    li{
+        width: 90px;
+        height:90px;
+        background-color:#ADD9E7;
+        list-style-type: none;
+        margin: 5px;
+        text-align: center;
+        font-family: sans-serif;
+        font-size:80px;
+        box-shadow:#ADD9E7;
+        border-radius: 10px ;
+
+    }
+    li:hover{
+        background-color: rgb(119, 0, 255);
+    }
